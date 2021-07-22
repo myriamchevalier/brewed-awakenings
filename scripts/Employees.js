@@ -6,7 +6,7 @@ export const Employees = () => {
     let html = "<ul>"
 
     for (const employee of employees) {
-        html += `<li id="employee--${employeeId}">${employee.name}</li>`
+        html += `<li id="employee--${employee.id}">${employee.name}</li>`
     }
 
     html += "</ul>"
